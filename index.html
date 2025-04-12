@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EP - Nosso Amor É Acústico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: linear-gradient(120deg, #0f0f0f, #1c1c1c);
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #DC143C;
+      text-shadow: 1px 1px 4px #000;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .player-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+      max-width: 600px;
+      padding: 0 10px;
+    }
+    .player {
+      background: #1f1f1f;
+      border-radius: 20px;
+      padding: 20px;
+      color: #DC143C;
+      box-shadow: 0 4px 20px rgba(220, 20, 60, 0.2);
+    }
+    .player h2 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: whitesmoke;
+    }
+    audio {
+      width: 100%;
+      outline: none;
+    }
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .subtitle {
+        font-size: 1rem;
+      }
+      .player h2 {
+        font-size: 1rem;
+      }
+      .footer {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>EP - Nosso Amor É Acústico</h1>
+  <div class="subtitle">em breve...</div>
+
+  <div class="player-container">
+    <div class="player">
+      <h2>FICA AQUI</h2>
+      <audio controls>
+        <source src="FICA AQUI (mp3cut.net).mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+      </audio>
+    </div>
+
+    <div class="player">
+      <h2>LIÇÃO DE AMOR</h2>
+      <audio controls>
+        <source src="_Lição de Amor_ (mp3cut.net).mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+      </audio>
+    </div>
+
+    <div class="player">
+      <h2>É VOCÊ</h2>
+      <audio controls>
+        <source src="(Verso 1) (mp3cut.net).mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+      </audio>
+    </div>
+  </div>
+
+  <div class="footer">&copy; 2025 - Todos os direitos reservados</div>
+</body>
+</html>
